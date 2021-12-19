@@ -22,6 +22,8 @@ public static void main(String[] args) {
  int a = (int) ((Math.random() * 100)+1); // Número aleatorio de 1 a 100.
  int b; // Número introducido por el usuario.
  int i; // Contador para bucle for.
+ 
+    System.out.println("-----------JUEGO DE ALEX------------");
 
  System.out.println("El juego consiste en averiguar un número secreto de 100 posibles.");
 
@@ -62,6 +64,7 @@ public static void main(String[] args) {
    else if (i >= 4) {
    System.out.print("Oh, oh... ÚLTIMO intento: ");
    b = sc.nextInt(); }
+    
     }
   }
 }
