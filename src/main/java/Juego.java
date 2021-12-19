@@ -23,7 +23,8 @@ public static void main(String[] args) {
  int b; // Número introducido por el usuario.
  int i; // Contador para bucle for.
  
-    System.out.println("-----------JUEGO DE ALEX------------");
+    System.out.println("-----------JUEGO DE ALEX-----------");
+
 
  System.out.println("El juego consiste en averiguar un número secreto de 100 posibles.");
 
